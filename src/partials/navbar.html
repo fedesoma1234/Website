@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg @@classList">
+  @@if(type=="boxed"){<div class="container">}
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="@@webRoot/index.html">
+      <img src="@@webRoot/assets/img/myphoto/img/logo.svg" class="navbar-brand-img" alt="...">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse overflow-hidden" id="navbarCollapse">
+
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fe fe-x"></i>
+      </button>
+
+      <!-- Navigation -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../players.html">
+            Players
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../creative-lab.html">
+            Creative lab
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="navbarDocumentation" href="../blog.html"
+            aria-haspopup="true" aria-expanded="false">
+            Blog
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../career-single.html">
+            Contacts
+          </a>
+        </li>
+      </ul>
+
+      <!-- Button -->
+      <a class="navbar-btn btn btn-sm btn lift ml-auto mybtn" id="btnSignup"
+        href="../signup-cover.html" target="_blank">
+        Sign up
+      </a>
+      <a class="navbar-btn btn btn-sm btn-danger bg-mypink lift ml-0 ml-lg-2 mybtn" id="btnLogin"
+        href="../signin-cover.html" target="">
+        Log in
+      </a>
+    </div>
+
+    @@if(type=="boxed"){
+  </div>}
+</nav>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    @@include("partials/head.html", {
+    "pageTitle": "SQUARE"
+    })
+</head>
+
+<body class="bg-light">
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+    "classList": "navbar-light bg-white",
+    "type": "fluid"
+    })
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="position-relative py-8 py-md-11 mb-9">
+    
+        <!-- Shape -->
+        <div class="shape shape-fluid-x shape-blur-1 svg-shim text-gray-200">
+            <svg viewBox="0 0 723 569" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M703.969 241.602L703.963 241.599C716.081 262.97 723 287.677 723 314C723 382.917 675.575 440.757 611.58 456.665L246.7 556.937C226.465 564.729 204.481 569 181.5 569C81.2603 569 0 487.74 0 387.5C0 353.244 9.49023 321.204 25.985 293.867L25.9688 293.875L141.512 77.5476C162.753 33.3052 207.123 2.2726 258.951 0.119583L258.959 0H264.719H390.999H508.5H509.999L510.002 0.00999319C551.85 0.567328 588.083 24.388 606.358 59.1292L606.359 59.125L703.969 241.602Z"
+                    fill="currentColor"></path>
+            </svg>
+    
+        </div>
+    
+        <!-- Contetn -->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 order-md-2">
+    
+                    <!-- Image -->
+                    <div class="device-combo device-combo-iphonex-iphonex mb-6 mb-md-0">
+    
+                        <!-- iPhone -->
+                        <div class="device device-iphonex aos-init aos-animate" data-aos="fade-left">
+                            <img src="assets/img/screenshots/mobile/home.jpg" class="device-screen" alt="...">
+                            <img src="assets/img/devices/iphonex.svg" class="img-fluid" alt="...">
+                        </div>
+    
+                        <!-- iPhone -->
+                        <div class="device device-iphonex aos-init aos-animate" data-aos="fade-left" data-aos-delay="150"
+                            style="
+        top: -8%;
+        right: -33%;
+    ">
+                            <img src="assets/img/screenshots/mobile/rental.jpg" class="device-screen" alt="...">
+                            <img src="assets/img/devices/iphonex.svg" class="img-fluid" alt="...">
+                        </div>
+    
+                    </div>
+    
+                </div>
+                <div class="col-12 col-md-6 order-md-1 aos-init aos-animate" data-aos="fade-up">
+    
+                    <!-- Heading -->
+                    <h1 class="display-3 font-weight-bold">Chat with
+                        <span class="mypink">friends</span>
+                        <span class="dot-after">.</span><br>
+                        Watch funny content.</h1>
+    
+                    <!-- Text -->
+                    <p class="lead text-muted mb-6 mb-md-8">Forward-thinking businesses use Timekit to imagine,
+                        design and manage the perfect scheduling flows to
+                        imagine, design and manage.</p>
+    
+                    <!-- Buttons -->
+                    <img src="assets/img/buttons/button-play.png" class="mr-1 lift img-fluid mw-30" style="
+                        max-width: 30%;
+                    ">
+                    <img src="assets/img/buttons/button-app.png" class="mr-1 lift img-fluid mw-30" style="
+                        max-width: 30%;
+                    ">
+    
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+            @@include("assets/img/shapes/curves/curve-1.svg")
+        </div>
+    </div>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative mt-11">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+            @@include("assets/img/shapes/curves/curve-1.svg")
+        </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <section class="pt-11 bg-dark">
+        @@include("partials/footer.html", {
+        "classList": "bg-dark"
+        })
+    </section>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+</body>
+
+</html>

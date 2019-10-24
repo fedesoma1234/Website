@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "pageTitle": "SQUARE"
+    })
+  </head>
+  <body>
+  <!-- MODALS
+      ================================================== -->
+    @@include("partials/modals.html")
+    
+    <!-- NAVBAR
+        ================================================== -->
+    @@include("partials/navbar.html", {
+    "classList": "navbar-light bg-white border-bottom",
+    "type": "fluid"
+    })
+
+    <!-- CONTENT
+    ================================================== -->
+    <section class="py-10 py-md-10">
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center justify-content-center no-gutters min-vh-100">
+          <div class="col-12 col-md-12 text-center">
+    
+            <!-- Image -->
+            <img src="./assets/img/myphoto/additional-photo/illustration-1.png" class="img-fluid mb-6 mb-md-0" alt="...">
+    
+          </div>
+          <div class="col-12 col-md-5 col-lg-4 py-4 py-md-8 text-center">
+            <!-- Heading -->
+    
+            <h1 class="mb-0 display-1 text-center" style="
+        font-weight: 700;
+    ">404</h1>
+            <h1 class="display-3 font-weight-bold text-center">Page not found</h1>
+    
+            <!-- Text -->
+            <p class="mb-8 text-center text-muted">It appears the page you were looking for
+    
+              couldn’t be found.</p>
+    
+            <!-- Link -->
+            <div class="text-center">
+              <a class="btn btn-primary font-weight-bold bg-mypink mybtn-padding " href="#!" style="
+        width: 50%;
+    ">Go Back</a>
+            </div>
+    
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+      
+  </body>
+</html>

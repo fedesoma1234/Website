@@ -1,0 +1,222 @@
+// 
+// user.scss
+// Use this to write your custom SCSS
+//
+:root {
+    --mypink: #e95490;
+}
+.mypink {
+    color: var(--mypink) !important;
+}
+.myindigo{
+    color: var(--indigo) !important;
+}
+.bg-myindigo{
+    background: var(--indigo) !important;
+}
+.mycyan{
+    color: var(--cyan) !important;
+}
+.bg-mypink {
+    background: var(--mypink) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--mypink);
+}
+.mybtn {
+    padding: 5px 15px;
+}
+.mybtn-hover:hover{
+    background: var(--mypink);
+    opacity: .8;
+}
+.mybtn-12 {
+    width: 40%;
+    padding: 12px 24px;
+}
+.btn-login {
+    background: var(--mypink);
+}
+.line-h-2{
+    line-height: 2;
+}
+.dot-after{
+    font-family: roboto;
+    position: relative;
+    left: -9px;
+}
+.box-item-2 {
+    padding: 0px 30px;
+    margin: 0px 30px;
+    // border-right: 1px solid;
+    // border-left: 1px solid;
+}
+.tooltip-text {
+    font-size: .6rem;
+}
+.btn-check-rounded {
+    padding: 2px !important;
+}
+.feature-pos {
+    top: 1rem;
+    right: 1rem;
+}
+button[aria-label="Previous"] {
+    background-color: rgba(80,102,144,.7);
+}
+button[aria-label="Next"] {
+    background: var(--mypink);
+}
+button[aria-label="Next"]:hover, button[aria-label="Previous"]:hover{
+    opacity: .8;
+}
+button[aria-label="Next"]:hover {
+    background: var(--mypink);
+}
+button[aria-label="Previous"]:hover {
+    background-color: rgba(80,102,144,.7);
+}
+.flickity-button::before{ 
+    font-size: 1.5rem;
+}
+.border-mypink {
+    border-color: var(--mypink);
+}
+.myinput-footer, .mybtn-footer {
+    padding: 4px 24px;
+}
+.myinput-footer {
+    height: auto;
+    width: 60%;
+}
+.text-made-after::after {
+    content: '\1F499';
+    display: inline-block;
+    margin: 0 8px 0px 3px;
+    color: #e95490;
+}
+.btn-model:hover{
+    background: var(--mypink);
+}
+.mybtn-padding {
+    padding: .5rem 2rem;
+}
+.text-name {
+    display: flex;
+    align-items: flex-start;
+}
+.text-name img {
+    padding-top: 0.5rem !important;
+}
+.more-icon{
+    content: "\e92e";
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    right: -4px;
+    border: 1px solid;
+}
+.device-combo.device-combo-macbook-iphonex.mb-0 .phone-pos{
+    bottom: -48px;
+    right: -48px;
+    width: 32%;
+}
+.device-combo.device-combo-iphonex-macbook .device-iphonex.myphone-home {
+        width: 45%;
+    bottom: -45%;
+    left: 12%;
+}
+.device-combo.device-combo-iphonex-macbook .device-macbook.mymac-home{
+        width: 150%;
+    left: 20%;
+    top: -25%;
+}
+.model-top {
+    clip-path: url('../img/myphoto/additional-photo/frame.png') !important;
+}
+.absolute-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+// Grid
+/* ---- grid ---- */
+
+.grid {
+//   background: #EEE;
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 180px;
+  height: 220px;
+  float: left;
+//   background: #D26;
+//   border: 2px solid #333;
+//   border-color: hsla(0, 0%, 0%, 0.5);
+//   border-radius: 5px;
+}
+.grid-item--width1 { width: 180px; }
+.grid-item--width2 { width: 200px; }
+.grid-item--width3 { width: 220px; }
+.grid-item--width4 { width: 240px; }
+.grid-item--width5 { width: 260px; }
+
+.grid-item--height1 { height: 220px; }
+.grid-item--height2 { height: 260px; }
+.grid-item--height3 { height: 300px; }
+.grid-item--height4 { height: 340px; }
+.grid-item--height5 { height: 380px; }
+@media only screen and (min-width: 768px) {
+.device-brands-pos {
+    left: 78%;
+    max-height: 73%;
+    top: 16%;
+    /* transform: rotateX(22deg); */
+}
+.device-brands-size{
+    right: -6%;
+    width: 187% !important;
+}
+.img-top-local {
+    position: relative;
+    top: -90px;
+}
+.bottom button[aria-label="Previous"] {
+    bottom: -9% !important;
+    left: 45% !important;
+    top: auto;
+    background-color: rgba(80,102,144,.7);
+}
+.bottom button[aria-label="Next"] {
+    right: 45% !important;
+    top: auto;
+    bottom: -9% !important;
+    background: var(--mypink);
+}
+.blog .bottom button[aria-label="Previous"], .blog .bottom button[aria-label="Next"]  {
+        bottom: -3% !important;
+}
+}
+@media only screen and (max-width: 468px) {
+    .device-combo.device-combo-macbook-iphonex.mb-0 .phone-pos{
+        bottom: -30px;
+        right: -25px;
+    }
+    .mb-3-phone{
+        margin-bottom: .75rem;
+    }
+}

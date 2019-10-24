@@ -1,0 +1,1244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "pageTitle": "SQUARE"
+    })
+  </head>
+  <body class="bg-light blog">
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+    
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+      "classList": "navbar-light bg-white",
+      "type": "fluid"
+    })
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="py-10 py-md-14 overlay overlay-black overlay-60 bg-cover jarallax" style="background-image: url(assets/img/myphoto/additional-photo/bg/blog-top.png);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7 text-center">
+            
+            <!-- Heading -->
+            <h1 class="display-2 font-weight-bold text-white">
+              Our Blog
+            </h1>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- SEARCH
+    ================================================== -->
+    <section class="mt-n6">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            
+            <!-- Form -->
+            <form class="rounded shadow mb-4">
+              <div class="input-group input-group-lg">
+
+                <!-- Prepend -->
+                <div class="input-group-prepend">
+                  <span class="input-group-text border-0 pr-1">
+                    <i class="fe fe-search"></i>
+                  </span>
+                </div>
+
+                <!-- Input -->
+                <input type="text" class="form-control border-0 px-1" aria-label="Search our blog..." placeholder="Search our blog...">
+
+                <!-- Append -->
+                <div class="input-group-append">
+                  <span class="input-group-text border-0 py-0 pl-1 pr-3">
+                    <a class="btn btn-sm text-white bg-mypink mybtn mybtn-hover" href="blog-search.html">
+                      Search
+                    </a>
+                  </span>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div> <!-- / .row -->
+      </div>
+    </section>
+
+    <!-- ARTICLES
+    ================================================== -->
+    <section class="pt-7 pt-md-7">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">     
+            <!-- Card -->
+            <div class="card card-row shadow-light-lg border border-gray-300 mb-6 lift lift-lg">
+              <div class="row no-gutters">
+                <a class="col-12 col-md-6 order-md-2 bg-cover card-img-right" style="background-image: url(assets/img/photos/photo-27.jpg);" href="#!">
+
+                  <!-- Image (placeholder) -->
+                  <img src="assets/img/photos/photo-27.jpg" alt="..." class="img-fluid d-md-none invisible">
+
+                  <!-- Shape -->
+                  <div class="shape shape-left shape-fluid-y svg-shim text-white d-none d-md-block">
+                    @@include("assets/img/shapes/curves/curve-5.svg")
+                  </div>
+
+                </a>
+                <div class="col-12 col-md-6 order-md-1">
+
+                  <!-- Body -->
+                  <a class="card-body" href="#!">
+
+                    <!-- Heading -->
+                    <h3 class="font-weight-bolder">
+                      Keeping the dream alive by traveling the
+                      world. of chicken and beans.                   
+                   </h3>
+
+                    <!-- Text -->
+                    <p class="mb-0 text-muted">
+                        Integrate the latest technologies with an
+                        innovative platform When your team needs
+                        to kick off a project, hire a new employee...                   
+                    </p>
+
+                  </a>
+
+                  <!-- Meta -->
+                  <a class="card-meta" href="#!">
+
+                    <!-- Divider -->
+                    <hr class="card-meta-divider">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm mr-2">
+                      <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+                    
+                    <!-- Author -->
+                    <h6 class="text-uppercase text-muted mr-2 mb-0">
+                      Ab Hadley
+                    </h6>
+                    
+                    <!-- Date -->
+                    <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                      <time datetime="2019-05-02">May 02</time>
+                    </p>
+
+                  </a>
+
+                </div>
+
+              </div> <!-- / .row -->
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- ARTICLES
+    ================================================== -->
+    <section class="pt-7 pt-md-10">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-12 col-md">
+        
+            <!-- Heading -->
+            <h3 class="mb-0 font-weight-bolder">
+              Latest Stories
+            </h3>
+        
+            <!-- Text -->
+            <p class="mb-0 text-muted">
+              Here’s what we've been up to recently.
+            </p>
+        
+          </div>
+          <div class="col-12 col-md-auto">
+        
+            <!-- Button -->
+            <a href="#!" class="btn btn-sm btn-outline-danger bg-mypink mybtn-hover text-white d-none d-md-inline">
+              View all
+            </a>
+        
+          </div>
+        </div> <!-- / .row -->
+      </div>
+      <div class="container p-0 pb-md-12 overflow-hidden">
+      
+        <div class="flickity-viewport-visible pt-2 pb-9 flickity-enabled is-draggable bottom"
+            data-flickity='{"cellAlign": "left", "imagesLoaded": true, "pageDots": false, "prevNextButtons": true, "contain": true}'>
+            <div class="col-12 col-md-6 col-lg-4">
+            
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-15.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Cafe Coworking Has Become the Norm.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-15.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Cafe Coworking Has Become the Norm.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-15.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Cafe Coworking Has Become the Norm.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-14.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Weekly Roundtable Meetings Saved Us.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Adolfo Hess
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-14.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Weekly Roundtable Meetings Saved Us.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Adolfo Hess
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-14.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Weekly Roundtable Meetings Saved Us.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Adolfo Hess
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+            
+              <!-- Card -->
+              <div class="card mb-6 mb-md-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Nature Can Save Your Creative Side.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-md-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Nature Can Save Your Creative Side.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-md-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Nature Can Save Your Creative Side.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+            
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-15.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Cafe Coworking Has Become the Norm.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-15.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Cafe Coworking Has Become the Norm.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-15.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Cafe Coworking Has Become the Norm.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-14.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Weekly Roundtable Meetings Saved Us.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Adolfo Hess
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-14.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Weekly Roundtable Meetings Saved Us.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Adolfo Hess
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-14.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Weekly Roundtable Meetings Saved Us.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Adolfo Hess
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+            
+              <!-- Card -->
+              <div class="card mb-6 mb-md-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Nature Can Save Your Creative Side.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-md-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Nature Can Save Your Creative Side.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-md-6 border border-gray-300 border-top-0 lift lift-lg">
+            
+                <!-- Image -->
+                <a class="card-img-top" href="#!">
+            
+                  <!-- Image -->
+                  <img src="assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+            
+                  <!-- Shape -->
+                  <div class="position-relative">
+                    <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                      @@include("assets/img/shapes/curves/curve-3.svg")
+                    </div>
+                  </div>
+            
+                </a>
+            
+                <!-- Body -->
+                <a class="card-body" href="#!">
+            
+                  <!-- Heading -->
+                  <h3 class="font-weight-bolder">
+                    Nature Can Save Your Creative Side.
+                  </h3>
+            
+                  <!-- Text -->
+                  <p class="mb-0 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec condimentum quam.
+                  </p>
+            
+                </a>
+            
+                <!-- Meta -->
+                <a class="card-meta mt-auto" href="#!">
+            
+                  <!-- Divider -->
+                  <hr class="card-meta-divider">
+            
+                  <!-- Avatar -->
+                  <div class="avatar avatar-sm mr-2">
+                    <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  </div>
+            
+                  <!-- Author -->
+                  <h6 class="text-uppercase text-muted mr-2 mb-0">
+                    Ab Hadley
+                  </h6>
+            
+                  <!-- Date -->
+                  <p class="h6 text-uppercase text-muted mb-0 ml-auto">
+                    <time datetime="2019-05-02">May 02</time>
+                  </p>
+            
+                </a>
+            
+              </div>
+            </div>
+          </div> <!-- / .container -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html", {
+      "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+      
+  </body>
+</html>
